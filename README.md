@@ -15,3 +15,16 @@
 11. run "dvc repro" for running all the stages in pipeline
 
  ![img](https://raw.githubusercontent.com/Trilokpandey/FSDS_deepCNNClassifier/master/docs/images/project_flow.png) 
+
+STEP 1: Set the env variable | Get it from dagshub -> remote tab -> mlflow tab
+
+MLFLOW_TRACKING_URI=https://dagshub.com/sonu.pandey1990/FSDS_deepCNNClassifier.mlflow \
+MLFLOW_TRACKING_USERNAME=sonu.pandey1990 \
+MLFLOW_TRACKING_PASSWORD=<> \
+
+STEP 2: install mlflow
+
+STEP 3: Set remote URI
+
+STEP 4: Use context manager of mlflow to start run and then log metrics, params and model
+
