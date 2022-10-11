@@ -28,3 +28,5 @@ STEP 3: Set remote URI
 
 STEP 4: Use context manager of mlflow to start run and then log metrics, params and model
 
+## sample data for testing 
+https://raw.githubusercontent.com/Trilokpandey/raw_data/main/sample_data.zip
